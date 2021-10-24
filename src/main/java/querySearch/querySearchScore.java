@@ -33,8 +33,8 @@ public class querySearchScore {
 
     // Limit the number of search results we get. Since we have 
     //a small data set, we can set max results to total number of files.
-    // For max efficiency and best results, taking the max hit documents to 999. 
-    private static int MAX_RESULTS = 999;
+    // For max efficiency and best results, taking the max hit documents to 500. 
+    private static int MAX_RESULTS = 500;
 
     public void querySearch(String args, IndexSearcher isearcher, String result, Integer AnalyzerSelect) throws IOException, ParseException {
     	
